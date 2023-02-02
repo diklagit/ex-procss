@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ex-procss</title>
+    <link rel="stylesheet" href="./scss/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="ex-procss.css" type="text/css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="bg-secondary">
+    <header>
+      <nav class="navbar navbar-expand-lg fixed-top bg-primary fs-5">
+        <img
+          src="https://www.holon.muni.il/SiteCollectionImages/logo.png"
+          alt="חולון"
+          width="50px"
+        />
+        <div class="container-fluid">
+          <a class="navbar-brand" href="ex-procss.html">חולון בקליק</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="about.html"
+                  >אודות</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="media.html">מדיה</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="faq.html">שאלות נפוצות</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">צור קשר</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <img
+        src="https://images.unsplash.com/photo-1598868116817-febbd119e53a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bWFyZGklMjBncmF8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+        alt=""
+        class="d-block d-md-none w-100"
+      />
+      <div class="container-fluid p-0 mt-5 mb-1">
+        <div class="row justify-content-center">
+          <div class="col">
+            <div
+              id="carouselExampleAutoplaying"
+              class="carousel slide d-none d-md-block"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="https://images.unsplash.com/photo-1621100819796-9035a9120965?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bWFyZGklMjBncmF8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+                    class="img-fluid d-block w-100"
+                    alt="קרנבל"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://images.pexels.com/photos/1144283/pexels-photo-1144283.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    class="img-fluid d-block w-100"
+                    alt="תחפושות"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://images.unsplash.com/photo-1609263857016-03e9eafaa579?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDV8fG1hcmRpJTIwZ3JhfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                    class="img-fluid d-block w-100"
+                    alt="מסכה"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://images.unsplash.com/photo-1533022586528-2e09bde0959b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fG1hcmRpJTIwZ3JhfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                    class="img-fluid d-block w-100"
+                    alt="מסכות"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://images.unsplash.com/photo-1603043147971-564df57e2915?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fG1hcmRpJTIwZ3JhfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                    class="img-fluid d-block w-100"
+                    alt="מסכה"
+                  />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h7 class="text-right me-2">בס"ד</h7>
+      <div class="container">
+        <div class="row justify-content-center text-center">
+          <div class="col-9">
+            <div class="box">
+              <h2 class="fw-bold title1">העדלאידע חולון</h2>
+              <p class="lh-lg fs-5">
+                תהלוכת פורים הגדולה במדינה מתקיימת מידי שנה בעיר חולון והיא
+                מהווה שיאה של פעילות קהילתית וארגונית המתרחשת במהלך השנה ומתעצמת
+                לקראת החג. בתהלוכה, אשר מתמקדת בכל פעם בנושא מרכזי שונה, נוטלים
+                חלק אלפי צועדים, ביניהם: תלמידי בתי הספר בחולון, משתתפי החוגים
+                במרכזים הקהילתיים ובמרכזי התרבות והספורט, להקות של מתעמלים,
+                פעלולנים ואקרובטים, קבוצות מנגנים ורקדנים, קבוצות תיאטרון רחוב,
+                וכמובן מיצגי ענק ססגוניים, המהווים את החלק המרגש והמרשים במיוחד.
+                לצד הצועדים מחולון משתתפים בעדלאידע צועדים אורחים מרחבי הארץ
+                ולעיתים אף מהעולם.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid">
+        <div class="row m-5 justify-content-around">
+          <div class="col-3 bg-secondary my-4 mx-5">
+            <div class="card mb-3 bg-success" style="max-width: 540px">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img
+                    src="https://www.meyeden.co.il/profiles/edensprings/themes/eden_ng/images/logo/logo-israel.png"
+                    alt="מי עדן"
+                    class="img-fluid rounded-start"
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">מי עדן</h5>
+                    <p class="card-text">
+                      מים טבעיים איכותיים, טעימים ועשירים במינרלים שהגוף צריך.
+                      העוצמה של המים - איתכם בכל לגימה.
+                    </p>
+                    <a
+                      href="https://www.meyeden.co.il/"
+                      class="btn btn-primary mt-2"
+                      target="_blank"
+                      >לאתר "מי עדן"</a
+                    >
+                    <br />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col-3 my-4 mx-5 fs-1 fw-bolder d-flex flex-column justify-content-center align-items-center title2 fs-1"
+          >
+            <span id="sponser">בחסות</span>
+            <img
+              src="https://icon-library.com/images/hand-heart-icon/hand-heart-icon-18.jpg"
+              alt="שיתוף פעולה"
+              class="w-50 h-50 mt-3"
+            />
+          </div>
+
+          <div class="col-3 bg-secondary my-4 mx-5">
+            <div class="card mb-3 bg-success" style="max-width: 540px">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/he/thumb/2/2a/%D7%92%D7%95%D7%9C%D7%93%D7%A1%D7%98%D7%90%D7%A8.svg/300px-%D7%92%D7%95%D7%9C%D7%93%D7%A1%D7%98%D7%90%D7%A8.svg.png"
+                    alt="בירה גולדסטאר"
+                    class="img-fluid rounded-start mt-2 me-2"
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">בירה גולדסטאר</h5>
+                    <p class="card-text">
+                      בירה גולדסטאר הייתה הבירה הראשונה שנמכרה מן החבית והפכה
+                      מבירה של חיילים לבירה הכי אהובה בישראל. היא מיוצרת מתערובת
+                      של מגוון סוגי לתת בהירים וקלויים בתהליך מסורתי המקנה לה
+                      טעם עמוק וייחודי.
+                    </p>
+                    <a
+                      href="https://www.beers.co.il/brewery/%D7%A7%D7%A8%D7%9C%D7%A1%D7%91%D7%A8%D7%92-%D7%99%D7%A9%D7%A8%D7%90%D7%9C/"
+                      class="btn btn-primary mt-2"
+                      target="_blank"
+                      >לאתר מכירות של "בירה גולדסטאר"</a
+                    >
+                    <br />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-3 bg-secondary my-4 mx-5">
+            <div class="card mb-3 bg-success" style="max-width: 540px">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img
+                    src="https://files.mishloha.co.il/files/rest_logo/RLL_3141_636687237238545217.png"
+                    alt="בורגראנץ'"
+                    class="img-fluid rounded-start mt-2 me-2"
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">בורגראנץ'</h5>
+                    <p class="card-text">
+                      הבורגר הכי ישראלי שיש! ראנץ', אנגוס, שניצל קריספי או צ'יקן
+                      גריל, בין ראנץ' בורגר קלאסי לספרדי-חריף-ממש-חריף, הדבר
+                      היחיד שיהיה חסר לכם במשלוח זה השם שלכם בכריזה כשהמנה שלכם
+                      תהיה מוכנה.
+                    </p>
+                    <a
+                      href="https://app.burgeranch.co.il/"
+                      class="btn btn-primary mt-2"
+                      target="_blank"
+                      >לאתר "בורגראנץ'"</a
+                    >
+                    <br />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-3 bg-secondary my-4 mx-5">
+            <div class="card mb-3 bg-success" style="max-width: 540px">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img
+                    src="https://media.easy.co.il/images/UserPics/10052918_1607426940304_1.jpeg"
+                    alt="פיצה תרשיש"
+                    class="img-fluid rounded-start mt-2 me-2"
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">פיצה תרשיש</h5>
+                    <p class="card-text">
+                      מסעדה איטלקית בעלת מנות מיוחדות ומגוונות. אצלנו תוכלו
+                      למצוא מגוון רחב של סלטים בהרכבה אישית, פסטות איכותיות,
+                      וכמובן שאת הפיצה הכי טובה בעיר!
+                    </p>
+                    <a
+                      href="https://easy.co.il/page/10052918"
+                      class="btn btn-primary mt-2"
+                      target="_blank"
+                      >"פיצה תרשיש" באתר easy</a
+                    >
+                    <br />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-3 bg-secondary my-4 mx-5">
+            <div class="card mb-3 bg-success" style="max-width: 540px">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img
+                    src="https://media.azrielimalls.co.il/_media/images/logo_d.png"
+                    alt="עזריאלי"
+                    class="img-fluid rounded-start mt-2 me-2"
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">עזריאלי</h5>
+                    <p class="card-text">
+                      חוויית שופינג חדשה והוליסטית - 15 קניונים בפריסה ארצית, כל
+                      המותגים האהובים והמובילים מהארץ ומחו"ל, חנויות דגל
+                      חדשניות, אירועים ופעילויות..
+                    </p>
+                    <a
+                      href="https://www.azrielimalls.co.il/"
+                      class="btn btn-primary mt-2"
+                      target="_blank"
+                      >לאתר "קניוני עזריאלי"</a
+                    >
+                    <br />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-3 bg-secondary my-4 mx-5">
+            <div class="card mb-3 bg-success" style="max-width: 540px">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img
+                    src="https://www.zimmerland.co.il/perhour/dga/47/47722f26fbf35094bab2536290621b1f97aa835b68a945bf726f.jpg"
+                    alt="ספאט חולון"
+                    class="img-fluid rounded-start mt-2 me-2"
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">ספאט חולון</h5>
+                    <p class="card-text">
+                      רשת המלונות ספאט הוטל גאה להציג מלון חדש ואיכותי בעיר
+                      חולון. קבלו הצצה למתחם הכי חם במרכז, הזמינו מקום כבר היום
+                      ותתחילו להתפנק!
+                    </p>
+                    <a
+                      href="https://spat-holon.business.site/"
+                      class="btn btn-primary mt-2"
+                      target="_blank"
+                      >לאתר "ספאט חולון"</a
+                    >
+                    <br />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-3 bg-secondary my-4 mx-5">
+            <div class="card mb-3 bg-success" style="max-width: 540px">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/he/2/22/Osem_Logo.svg"
+                    alt="אוסם"
+                    class="img-fluid rounded-start mt-2 me-2"
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">אוסם</h5>
+                    <p class="card-text">
+                      מוצרי אסם מהווים חלק בלתי נפרד מהמזווה של כל בית בישראל.
+                      הטעם האהוב שמלווה אותנו משחר ילדותינו ושאותו אנו מעבירים
+                      באהבה לילדינו.
+                    </p>
+                    <a
+                      href="https://www.osem-nestle.co.il/brands/%D7%90%D7%A1%D7%9D"
+                      class="btn btn-primary mt-2"
+                      target="_blank"
+                      >לאתר אוסם</a
+                    >
+                    <br />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col d-flex justify-content-center pt-4">
+            <img
+              alt="פייסבוק"
+              src="https://www.facebook.com/images/fb_icon_325x325.png"
+              style="border: 0px solid"
+              title="פייסבוק"
+              width="70px"
+              class="ms-3"
+            />
+
+            <img
+              alt="יוטיוב"
+              src="https://ims.gov.il/themes/imst/ims/images/roundyoutube.png"
+              style="border: 0px solid"
+              title="יוטיוב"
+              width="70px"
+              class="ms-3"
+            />
+
+            <img
+              alt="אינסטגרם"
+              src="https://www.instar.co.il/wp-content/uploads/2017/11/instagram.png"
+              style="border: 0px solid"
+              title="אינסטגרם"
+              width="70px"
+              class="ms-3"
+            />
+
+            <img
+              alt="טלגרם"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/2048px-Telegram_logo.svg.png"
+              style="border: 0px solid"
+              title="טלגרם"
+              width="70px"
+              class="ms-3"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="text-start mb-2 ms-2">
+        <h7>הזכויות שמורות לדיקלה כהן</h7>
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Copyright.svg/1200px-Copyright.svg.png"
+          alt="זכויות יוצרים"
+          width="20px"
+        />
+      </div>
+    </footer>
+  </body>
+</html>
