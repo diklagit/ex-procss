@@ -11860,4 +11860,13 @@ textarea.form-control-lg {
 .slidery {
   font-size: 20px;
   font-weight: bolder;
+}
+
+.slider-height {
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center;
+  object-position: center;
+  height: 65vh;
+  overflow: hidden;
 }/*# sourceMappingURL=bootstrap.css.map */
